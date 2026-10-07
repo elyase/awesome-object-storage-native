@@ -22,7 +22,7 @@ The [comparison](COMPARISON.md) records object-storage backends, licenses, the r
 ## Stateful Applications and Durable Actors
 
 - [Celld](https://github.com/denoland/celld) - Self-hosted Workers applications and Durable Objects with per-object SQLite and bucket-held state.
-- [Rivet Actors](https://github.com/rivet-dev/rivet) - Stateful actors with durable SQLite, realtime connections, queues, and S3-tiered storage.
+- [Rivet Actors](https://github.com/rivet-dev/rivet) - Stateful actors with durable SQLite, realtime connections, queues, and S3-tiered storage; forthcoming v3 moves latency-tolerant broadcasts to S3 logs.
 - [Terse Durable Actors](https://github.com/TerseAI/durable-actors) - Stateful TypeScript and Python actors with state snapshots in Google Cloud Storage.
 
 ## Streaming and Messaging
@@ -74,7 +74,7 @@ The [comparison](COMPARISON.md) records object-storage backends, licenses, the r
 
 - [JuiceFS](https://github.com/juicedata/juicefs) - Shared POSIX filesystem with file data in object storage and metadata in a separate database.
 - [Walgit](https://github.com/tobi/walgit) - Git and Git LFS server that keeps repositories in a bucket and commits pushes with manifest compare-and-swap.
-- [ZeroFS](https://github.com/Barre/ZeroFS) - Filesystem and block server over NFS, 9P, and NBD with data and metadata in object storage.
+- [ZeroFS](https://github.com/Barre/ZeroFS) - Filesystem and block server over NFS, 9P, and NBD with data and metadata in object storage; durability differs by protocol.
 
 ## Building Storage Systems
 
